@@ -6,6 +6,7 @@ import HomePage from './pages/home'
 import MyInfoPage from './pages/my-info'
 import SearchPage from './pages/search'
 import SigninPage from './pages/signin'
+import BoxMakerPage from './pages/box-maker'
 import ErrorPage from './pages/erorr'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/myinfo" component={MyInfoPage} />
           <Route path="/signin" component={SigninPage} />
           <Route path="/search" component={SearchPage} />
+          <Route path="/boxmaker" component={BoxMakerPage} />
           <Route component={ErrorPage} />
         </Switch>
       </BrowserRouter>
