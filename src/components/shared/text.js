@@ -6,7 +6,7 @@ const Text = styled.div`
   ${({ display }) => display && `display:${display};`}
   ${({ color }) => color && `color:${color};`}
   ${({ size }) => size && `font-size: ${size}px;`}
-  
+
   ${bold}
   ${marginPadding}
 `
