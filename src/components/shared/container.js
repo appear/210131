@@ -8,6 +8,7 @@ const Container = styled.div`
   ${({ maxWidth }) => maxWidth && `max-width: ${maxWidth}px;`}
   ${({ height }) => height && `height: ${height}px;`}
   ${({ background }) => background && `background:${background};`}
+
   ${centered}
   ${marginPadding}
 `

@@ -8,6 +8,7 @@ export const marginPadding = css`
 export const centered = css`
   ${({ centered }) => centered && `margin: 0 auto;`}
 `
+
 export const bold = css`
   ${({ bold }) => bold && `font-weight: bold;`}
 `
